@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.footer{width:100%;position:relative;background-color:#4f1c67;margin-top:40px;color:#fff;font-weight:lighter;font-size:10px}
+
+.footer_top{width:100%;height:40px;line-height:40px;padding-left:3.5%;border-bottom:1px solid #fff}
+.footer_top span{padding-left:16px}
+.footer_top .tel{background:url(../images/tell.png) no-repeat 0 0 / 12px;margin-right:8px}
+.footer_top .email{background:url(../images/email.png) no-repeat 0 0 / 12px}
+
+.footer_bottom{padding:15px 3.5%}
+.footer_bottom .add{letter-spacing:-0.02em;line-height:1.5}
+.footer_bottom .copy{display:block;margin:7px 0;opacity:0.5}
+
+
+

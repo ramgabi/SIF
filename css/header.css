@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#wrapper{width:100%;position:relative;overflow-x:hidden}
+
+.header{width:100%;height:50px;position:relative;background-color:#fff;line-height:50px}
+.header .logo{float:left;width:5%;height:50px;margin-left:3.5%}
+.header h1{float:left;text-align:center;width:83%;color:#4f1c67;font-size:28px;font-family:'NanumBarunGothicBold';font-weight:bold}
+.header .menu{float:right;width:5%;font-size:0;margin-right:3.5%;height:50px;margin-top:15px}
+.header .menu span{width:25px;height:2px;background-color:#4f1c67;display:block;margin-bottom:8px;transition:all 0.5s ease}
+
+.header .menu.on span{width:25px;height:2px;background-color:#fff;display:block;margin-bottom:0;margin-top:10px}
+
+.header .menu.on span:nth-of-type(1){transform:rotate(45deg)}
+.header .menu.on span:nth-of-type(2){transform:rotate(135deg);margin-top:-2px}
+.header .menu.on span:last-child{display:none}
+
+.header .allmenu{background-color:#4f1c67;width:100%;position:absolute;top:50px;left:0;z-index:99;display:none;height:100vh}
+
+.gnb > ul{padding-left:5%;padding-top:30px;height:70%}
+.gnb > ul > li > a{color:#fff;font-size:30px;line-height:50px}
+.gnb > ul > li > a.on{color:#6bccbe}
+
+.gnb .depth_1{display:none;margin-left:2.5%;padding-left:3%;border-left:1px solid #6bccbe;margin-bottom:20px}
+.gnb .depth_1 li{height:30px;line-height:30px}
+.gnb .depth_1 li a{color:#6bccbe;font-size:18px}
+
+.gnb .aside{margin-top:80px;height:140px;background-color:#4f1c67;height:30%}
+.gnb .aside a{color:#fff;display:block;text-align:center;font-size:18px;border-top:1px solid #fff;line-height:70px;height:50%}
